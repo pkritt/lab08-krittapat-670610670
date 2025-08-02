@@ -1,4 +1,4 @@
-import React from 'react';
+
 import type { SidebarProps } from '../libs/types';
 
 

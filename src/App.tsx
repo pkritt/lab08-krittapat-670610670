@@ -2,7 +2,7 @@ import Header from "./components/Header";
 import Sidebar from "./components/Sidebar";
 import Footer from "./components/Footer";
 import Task from "./components/Task";
-import TaskInput from "./components/TaskInput";
+import TaskInput from './components/TaskInput';
 import type { TaskProps } from "./libs/types";
 
 function App() {

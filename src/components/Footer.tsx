@@ -1,4 +1,4 @@
-import React from 'react';
+
 import type { FooterProps } from '../libs/types';
 
 

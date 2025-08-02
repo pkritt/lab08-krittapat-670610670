@@ -21,8 +21,9 @@ function Sidebar({ username, type }: SidebarProps) {
       <div className="fw-bold text-muted">
         <p>{username} : {type}</p>
       </div>
-    </aside>
+    </aside> 
   );
 }
+
 
 export default Sidebar;

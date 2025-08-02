@@ -23,7 +23,7 @@ function App() {
     {
       id: 3,
       title: "Deploy app",
-      description: "Push project to GitHub Pages",
+      description: "Push project to GitHub Pages", 
       isDone: false,
     },
   ];
@@ -32,6 +32,7 @@ function App() {
     <div className="d-flex flex-column" style={{ minHeight: "100vh" }}>
       {/* Header ด้านบน */}
       <Header />
+
 
       <div className="d-flex flex-grow-1">
         {/* Sidebar ด้านซ้าย */}

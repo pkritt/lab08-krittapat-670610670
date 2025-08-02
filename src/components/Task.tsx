@@ -25,5 +25,6 @@ function Task({  title, description, isDone }: TaskProps) {
     </div>
   );
 }
+ 
 
 export default Task;

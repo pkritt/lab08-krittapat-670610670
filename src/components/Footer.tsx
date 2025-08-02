@@ -2,6 +2,7 @@
 import type { FooterProps } from '../libs/types';
 
 
+
 function Footer({ year, fullName, studentId }: FooterProps) {
   return (
     <footer className="text-secondary text-center p-2 bg-light mt-auto">
@@ -11,3 +12,4 @@ function Footer({ year, fullName, studentId }: FooterProps) {
 }
 
 export default Footer;
+ 

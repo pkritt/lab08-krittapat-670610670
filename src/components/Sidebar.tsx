@@ -1,4 +1,4 @@
-import React from 'react';
+
 import type { SidebarProps } from '../libs/types';
 
 
@@ -21,8 +21,9 @@ function Sidebar({ username, type }: SidebarProps) {
       <div className="fw-bold text-muted">
         <p>{username} : {type}</p>
       </div>
-    </aside>
+    </aside> 
   );
 }
+
 
 export default Sidebar;

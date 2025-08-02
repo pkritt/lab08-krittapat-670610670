@@ -1,7 +1,7 @@
-import React from 'react';
+
 import type { TaskProps } from '../libs/types';
 
-function Task({ id, title, description, isDone }: TaskProps) {
+function Task({  title, description, isDone }: TaskProps) {
   return (
     <div className="card mb-3">
       <div className="card-body">
@@ -25,5 +25,6 @@ function Task({ id, title, description, isDone }: TaskProps) {
     </div>
   );
 }
+ 
 
 export default Task;

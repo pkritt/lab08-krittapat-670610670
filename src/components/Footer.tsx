@@ -1,5 +1,6 @@
-import React from 'react';
+
 import type { FooterProps } from '../libs/types';
+
 
 
 function Footer({ year, fullName, studentId }: FooterProps) {
@@ -11,3 +12,4 @@ function Footer({ year, fullName, studentId }: FooterProps) {
 }
 
 export default Footer;
+ 

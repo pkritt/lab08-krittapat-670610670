@@ -20,3 +20,4 @@ export interface FooterProps {
   fullName: string;
   studentId: string;
 }
+ 
